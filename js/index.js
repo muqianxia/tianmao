@@ -184,11 +184,11 @@
 //rightBar
 {
     $(".right_nav_item").mouseenter(function(){
-        $(this).find(".right_nav_tan").css({"left":-90,"display":"block"});
-        $(this).find(".right_erweima").css({"left":-154,"display":"block"});
+        $(this).find(".right_nav_tan").show().animate({right:"35"},300);
+        $(this).find(".right_erweima").show().animate({left:"-154"},300);
     })
     $(".right_nav_item").mouseleave(function(){
-        $(this).find(".right_nav_tan").css({"display":"none"});
+        $(this).find(".right_nav_tan").hide().animate({right:"70"},300);
     })
 }
 

@@ -1474,8 +1474,9 @@ input,fieldset{
     font-size: 12px;
     position: absolute;
     top: 0;
-    left: -200px;
+    right:70px;
     display: none;
+    z-index: -1;
 }
 .right_erweima{
     width: 155px;
